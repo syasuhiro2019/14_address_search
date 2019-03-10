@@ -9,18 +9,19 @@ address_data = [{"address1": "岩手県",
                  "zipcode": "6638141"},
                 ]
 
-if __name__ == '__main__':
+
+def main():
     # 兵庫県西宮市高須町 と出力してください
     address1 = address_data[1]['address1']
     address2 = address_data[1]['address2']
     address3 = address_data[1]['address3']
-
     print(f'{address1}{address2}{address3}')
-
     # 岩手県八幡平市大更 と出力してください
-
     address1 = address_data[0]['address1']
     address2 = address_data[0]['address2']
     address3 = address_data[0]['address3']
-
     print(f'{address1}{address2}{address3}')
+
+
+if __name__ == '__main__':
+    main()
